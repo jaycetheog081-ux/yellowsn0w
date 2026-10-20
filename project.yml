@@ -1,0 +1,31 @@
+name: yellowsn0w
+options:
+  bundleIdPrefix: com.yellowsn0w
+  deploymentTarget:
+    iOS: "15.0"
+  createIntermediateGroups: true
+settings:
+  base:
+    PRODUCT_NAME: yellowsn0w
+    PRODUCT_BUNDLE_IDENTIFIER: com.yellowsn0w.app
+    IPHONEOS_DEPLOYMENT_TARGET: "15.0"
+    TARGETED_DEVICE_FAMILY: "1,2"
+    SWIFT_VERSION: "5.0"
+    INFOPLIST_KEY_CFBundleDisplayName: yellowsn0w
+    INFOPLIST_KEY_UIUserInterfaceStyle: Automatic
+    GENERATE_INFOPLIST_FILE: YES
+    CODE_SIGN_STYLE: Automatic
+targets:
+  yellowsn0w:
+    type: application
+    platform: iOS
+    sources:
+      - path: yellowsn0w
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.yellowsn0w.app
+        INFOPLIST_KEY_CFBundleDisplayName: yellowsn0w
+        INFOPLIST_KEY_LSApplicationCategoryType: public.app-category.utilities
+        INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_NSPhotoLibraryUsageDescription: "Choose images to use in your yellowsn0w customization projects."
